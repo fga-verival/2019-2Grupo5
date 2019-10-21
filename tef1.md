@@ -3,7 +3,6 @@
 Para o TeF1 o grupo 5 estará levando em conta alguns objetivos a serem realizados durante o projeto, como por exemplo uma melhoria na suíte de testes do software, o software escolhido como projeto real a ser trabalhado será o [Translate-me](https://github.com/translate-me/docs), por fim no projeto abordado teremos documentado uma melhoria de qualidade do software em relação a testes.
 
 # Tema
-
 O tema definido no projeto será uma suíte de testes para uma projeto real que foi definido pelo grupo para desenvolvimento de uma suíte de testes para o software [Translate-me](https://github.com/translate-me/docs).
 
 # Problemas
@@ -77,7 +76,7 @@ O software é bem intuitivo?
 
 #### Metrica 2.0
 
-Teste de usabilidade
+Relização de testes de usabilidade na aplicação.
 
 ## Objetivo de Equipe 3.0
 
@@ -94,7 +93,7 @@ As funcionalidades funcionam idependentes de mudanças no código?
 
 #### Metrica 3.0
 
-Teste unitário
+Realização de testes unitários na aplicação.
 
 ## Objetivo de Equipe 4.0
 
@@ -107,11 +106,11 @@ Teste unitário
 
 ### Questão 4.0
 
-As funcionalidades funcionam idependentes de mudanças no código?
+As funcionalidades funcionam independente de mudanças no código?
 
 #### Metrica 4.0
 
-Teste unitário
+Realização de testes de aceitação na aplicação.
 
 ## Detalhamento das métricas
 
@@ -120,8 +119,8 @@ Teste unitário
 | Objetivo de medição | Verificar a quantidade de testes na aplicação                |
 | ------------------- | ------------------------------------------------------------ |
 | Entidade            | Testes                                                       |
-| Tipo                |                                                              |
-| Escala de medição   |                                                              |
+| Tipo                |                                                            Objetiva  |
+| Escala de medição   |                          Racional                                    |
 | Coleta              | Coletado pela execução dos testes do projeto periodicamente  |
 | Procedimento        | Executar os testes com a porcentagem de cobertura            |
 | Análise             | Porcentagem de testes                                        |
@@ -132,8 +131,8 @@ Teste unitário
 | Objetivo de medição | Verificar a usabilidade do projeto                                                                             |
 | ------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Entidade            | Testes                                                                                                         |
-| Tipo                |                                                                                                                |
-| Escala de medição   |                                                                                                                |
+| Tipo                |     Objetiva                                                                                                            |
+| Escala de medição   |                 Nominal                                                                                               |
 | Coleta              | Coletado através de testes com potenciais usuários da aplicação                                                |
 | Procedimento        | Entrevistas com potenciais usuários solicitando para que eles cumpram algumas atividades utilizando o software |
 | Análise             | As dificuldades e facilidades que o usuário encontra ao utilizar a aplicação                                   |
@@ -144,7 +143,7 @@ Teste unitário
 | Objetivo de medição | Verificar funcionalidades do software                                     |
 | ------------------- | ------------------------------------------------------------------------- |
 | Entidade            | Testes                                                                    |
-| Tipo                |                                                                           |
+| Tipo                |         Objetiva                                                                  |
 | Escala de medição   |                                                                           |
 | Coleta              | Coleta através de scripts de testes no software                           |
 | Procedimento        | scripts funcionais para testar o software                                 |
@@ -156,12 +155,12 @@ Teste unitário
 | Objetivo de medição | Verificar o sistema em relação aos seus requisitos originais |
 | ------------------- | ------------------------------------------------------------ |
 | Entidade            | Testes                                                       |
-| Tipo                |                                                              |
-| Escala de medição   |                                                              |
-| Coleta              |                                                              |
-| Procedimento        |                                                              |
-| Análise             |                                                              |
-| Providência         |                                                              |
+| Tipo                |            Objetiva                                                  |
+| Escala de medição   |               Nominal                                               |
+| Coleta              |                  Coleta através de scripts de testes de aceitação no software                                            |
+| Procedimento        |    Observar os requisitos do software                                                 |
+| Análise             |                    Comparação entre os requisitos de software e as funcionalidades da aplicação                              s            |
+| Providência         |        Refatorar o código novamente de modo que as funcionalidades atendam sos requisitos                                                      |
 
 # Planejamento
 
@@ -177,7 +176,41 @@ A tabela de relação serviço x teste encontra-se abaixo.
 | Fontend      |       -        |         x          |          x           |         x          |
 | Translate-me |       x        |         -          |          -           |         x          |
 
-# Referências
+# Referencial Teórico
 
-- [Translate-me](https://translate-me.github.io/docs/)
-- [Técnicas e critérios de teste](https://www.tiespecialistas.com.br/tecnicas-e-criterios-de-teste/)
+ É certo que os testes realizados ao estilo _ad hoc_ tendem a levar muitos erros, uma vez que contém o critério livre em sua realização e execução. Para a cobertura de testes de um código, é necessário elaboração do planejamento do teste na qual uma das etapas é a elaboração da estratégia de
+teste (CRESPO, 2004). Essa estratégia de teste contempla em qual fase do desenvolvimento do software o teste será realizado, a técnica a ser utilizada, os critérios a serem adotados e o tipo de teste aplicado. A falta de planejamento na realização de testes tende a levar ao tempo gasto com testes que não cobrirão todas as funcionalides do código e que necessitarão de mais manutenção.
+
+Além disso, é possível que até mesmo os códigos automatizados contenham erros, por isso recomenda-se que os testes sejam escritos da maneira mais simples e sucinta possível. Evitar códigos longos, repletos de variáveis condicionais, responsáveis por muitas verificações e também com nomes que tornam difícil (BERNARDO, 2008) a sua compreensão são pontos que podem auxiliar na escrita de testes de software.
+
+O referencial bibliográfico deste trabalho trouxe informações importantes sobre os tipos de testes que serão utilizados, conforme demonstrado abaixo:
+
+- Testes unitários permitem maior cobertura de teste : <br>
+O uso de teste unitários permite que testemos uma porção muito maior do código do sistema do que àquele feito manualmente. Sendo assim, torna-se mais fácil exercitar todos os caminhos possíveis do sistema nos testes unitários que nos testes manuais. Também torna-se mais fácil replicar condições determinadas com apenas a mudança de parâmetros em um método/classe, nos testes manuais seriam bem mais difícil tal acontecimento.
+
+- Testes unitários previnem regressão: <br>
+Quando utilizamos testes unitários automatizados de forma consistente em uma boa suíte de teste, é possível evitar
+que novas modificações no software façam com que as modificações antigas deixem de funcionar corretamente, ou ao menos, é possível ter o controle em qual funcionalidade isso ocorreu.
+
+- Testes unitários incentivam o refactoring: <br>
+Com o objetivo de poder obter uma melhor qualidade de código de forma contínua, os testes unitários incentivam a refatoração, pois independente das modificações feitas na refatoração, as funcionalidades têm de estar funcionando da mesma maneira que estavam antes da refatoração.
+
+- Testes unitários evitam sessões de debug: <br>
+Conforme novas funcionalidades são adicionadas ao software, o processo de debug torna-se cada vez mais trabalhoso. Sendo assim, os testes unitários nos ajudam a identificar mais rapidamente problemas nas funcionalidades.
+
+- Testes de unidade servem como documentação: <br>
+Os testes unitários simbolizam o comportamento do sistema, portanto quando bem escritos, ajudam novos desenvolvedores
+a entender o comportamento do sistema.
+
+- Testes de aceitação servem como validação do projeto:
+Esses testes são realizados normalmente com o cliente, e, em caso de sua ausência, podem ser realizados também através da comparação entre os requisitos do software e o produto final. As simulações da operação de rotina do sistema são essenciais para verificar o comportamento do software.
+
+# Referências Bibliográficas
+
+[1] [Translate-me](https://translate-me.github.io/docs/) <br>
+[2] [Técnicas e critérios de teste](https://www.tiespecialistas.com.br/tecnicas-e-criterios-de-teste/) <br>
+[3] CRESPO, Adalberto Nobiato et al. Uma metodologia para teste de Software no Contexto da Melhoria de Processo. <b> Simpósio Brasileiro de Qualidade de Software </b>, p. 271-285, 2004. <br>
+[4] BERNARDO, Paulo Cheque; KON, Fabio. <b> A importância dos Testes Automatizados. </b> Engenharia de Software Magazine, v. 1, n. 3, p. 54-57, 2008. <br>
+[5] NETO, Arilo. Introdução a teste de software. <b> Engenharia de Software Magazine, </b> v. 1, p. 22, 2007. <br>
+[6] CARVALHO, Ana Amélia Amorim. Testes de Usabilidade: exigência supérflua ou necessidade. In: <b> Actas do 5º congresso da sociedade portuguesa de ciências da educação. </b> 2002. p. 235-242. <br>
+[7] ZHU, Hong; HALL, Patrick AV; MAY, John HR. <b> Software unit test coverage and adequacy </b>. Acm computing surveys (csur), v. 29, n. 4, p. 366-427, 1997.
