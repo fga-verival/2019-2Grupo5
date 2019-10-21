@@ -153,27 +153,28 @@ Teste unitário
 
 ### Métrica 4.0 - Teste de aceitação
 
-| Objetivo de medição |
-| ------------------- |
-| Entidade            |  |
-| Tipo                |  |
-| Escala de medição   |  |
-| Coleta              |  |
-| Procedimento        |  |
-| Análise             |  |
-| Providência         |  |
+| Objetivo de medição | Verificar o sistema em relação aos seus requisitos originais |
+| ------------------- | ------------------------------------------------------------ |
+| Entidade            | Testes                                                       |
+| Tipo                |                                                              |
+| Escala de medição   |                                                              |
+| Coleta              |                                                              |
+| Procedimento        |                                                              |
+| Análise             |                                                              |
+| Providência         |                                                              |
 
 # Planejamento
 
 Todos os testes serão realizados entre o período de 21/10 a 15/11.
 Para os testes, os membros do grupo se dividirão entre os serviços **Autenticação**, **Profile**, **Fontend** e a api **Translate-me**.
-|Serviço|Teste unitário|Teste automatizado|Teste de usabilidade|Teste de aceitação|
-|-|:-:|:-:|:-:|:-:|
-|Autenticação|x|-|-|x|
-|Profile|x|-|-|x|
-|Fontend|-|x|x|x|
-|Translate-me|x|-|-|x|
-|||Tabela de relação SERVIÇO x TESTE|||
+
+| Serviço      | Teste unitário |        Teste automatizado         | Teste de usabilidade | Teste de aceitação |
+| ------------ | :------------: | :-------------------------------: | :------------------: | :----------------: |
+| Autenticação |       x        |                 -                 |          -           |         x          |
+| Profile      |       x        |                 -                 |          -           |         x          |
+| Fontend      |       -        |                 x                 |          x           |         x          |
+| Translate-me |       x        |                 -                 |          -           |         x          |
+|              |                | Tabela de relação SERVIÇO x TESTE |                      |                    |
 
 # Referências
 
