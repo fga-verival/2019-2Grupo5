@@ -168,13 +168,14 @@ Teste unitário
 Todos os testes serão realizados entre o período de 21/10 a 15/11.
 Para os testes, os membros do grupo se dividirão entre os serviços **Autenticação**, **Profile**, **Fontend** e a api **Translate-me**.
 
-| Serviço      | Teste unitário |        Teste automatizado         | Teste de usabilidade | Teste de aceitação |
-| ------------ | :------------: | :-------------------------------: | :------------------: | :----------------: |
-| Autenticação |       x        |                 -                 |          -           |         x          |
-| Profile      |       x        |                 -                 |          -           |         x          |
-| Fontend      |       -        |                 x                 |          x           |         x          |
-| Translate-me |       x        |                 -                 |          -           |         x          |
-|              |                | Tabela de relação SERVIÇO x TESTE |                      |                    |
+A tabela de relação serviço x teste encontra-se abaixo.
+
+| Serviço      | Teste unitário | Teste automatizado | Teste de usabilidade | Teste de aceitação |
+| ------------ | :------------: | :----------------: | :------------------: | :----------------: |
+| Autenticação |       x        |         -          |          -           |         x          |
+| Profile      |       x        |         -          |          -           |         x          |
+| Fontend      |       -        |         x          |          x           |         x          |
+| Translate-me |       x        |         -          |          -           |         x          |
 
 # Referências
 
