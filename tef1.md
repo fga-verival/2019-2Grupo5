@@ -3,6 +3,7 @@
 Para o TeF1 o grupo 5 estará levando em conta alguns objetivos a serem realizados durante o projeto, como por exemplo uma melhoria na suíte de testes do software, o software escolhido como projeto real a ser trabalhado será o [Translate-me](https://github.com/translate-me/docs), por fim no projeto abordado teremos documentado uma melhoria de qualidade do software em relação a testes.
 
 # Tema
+
 O tema definido no projeto será uma suíte de testes para uma projeto real que foi definido pelo grupo para desenvolvimento de uma suíte de testes para o software [Translate-me](https://github.com/translate-me/docs).
 
 # Problemas
@@ -31,7 +32,11 @@ Os testes devem ser realizados com um usuário para verificar a facilidade do us
 
 ### Teste de aceitação
 
-Os testes de aceitação são realizados por algum usuário, para verificar se a solução atende aos requisitos do projeto. Voltados para funcionalidades e usabilidades, e esses testes são realizados com o suporte da equipe dos desenvolvedores, auxiliando o usuário.
+Os testes de aceitação são realizados por algum usuário, para verificar se a solução atende aos requisitos do projeto. Voltados para funcionalidades e usabilidades, esses testes são realizados com o suporte da equipe dos desenvolvedores, auxiliando o usuário.
+
+### Teste exploratório
+
+Os testes exploratórios são realizados por algum usuário, para verificar se há erros nos fluxos da aplicação. Voltados para usabilidade e falhas, eles são realizados com o testador tomando decisões sobre o que será testado durante a execução do teste ao invés de seguir um roteiro previamente planejado.
 
 # Ferramentas
 
@@ -49,7 +54,7 @@ As ferramentas utilizadas para a realização dos teste unitários e automatizad
 | Analisar           | Os testes do projeto |
 | ------------------ | -------------------- |
 | Com o proposito de | Avaliar              |
-| Em relação ao      | Testabilidade        |
+| Em relação a       | Testabilidade        |
 | Do ponto de vista  | da Aplicação         |
 | No contexto        | de Software          |
 
@@ -66,7 +71,7 @@ Cobertura de testes na aplicação
 | Analisar           | A usabilidade do produto |
 | ------------------ | ------------------------ |
 | Com o proposito de | Avaliar                  |
-| Em relação ao      | Usabilidade              |
+| Em relação a       | Usabilidade              |
 | Do ponto de vista  | do Usuário               |
 | No contexto        | UX e UI                  |
 
@@ -106,11 +111,28 @@ Realização de testes unitários na aplicação.
 
 ### Questão 4.0
 
-As funcionalidades funcionam independente de mudanças no código?
+As funcionalidades estão de acordo com os requisitos do projeto?
 
 #### Metrica 4.0
 
 Realização de testes de aceitação na aplicação.
+
+## Objetivo de Equipe 5.0
+
+| Analisar           | Funcionalidades do aplicativo |
+| ------------------ | ----------------------------- |
+| Com o proposito de | Avaliar                       |
+| Em relação a       | Funcionalidades               |
+| Do ponto de vista  | Usuário                       |
+| No contexto        | Qualidade                     |
+
+### Questão 5.0
+
+As funcionalidades funcionam como deveriam?
+
+#### Metrica 5.0
+
+Realização de testes de exploratórios na aplicação.
 
 ## Detalhamento das métricas
 
@@ -119,8 +141,8 @@ Realização de testes de aceitação na aplicação.
 | Objetivo de medição | Verificar a quantidade de testes na aplicação                |
 | ------------------- | ------------------------------------------------------------ |
 | Entidade            | Testes                                                       |
-| Tipo                |                                                            Objetiva  |
-| Escala de medição   |                          Racional                                    |
+| Tipo                | Objetiva                                                     |
+| Escala de medição   | Racional                                                     |
 | Coleta              | Coletado pela execução dos testes do projeto periodicamente  |
 | Procedimento        | Executar os testes com a porcentagem de cobertura            |
 | Análise             | Porcentagem de testes                                        |
@@ -131,8 +153,8 @@ Realização de testes de aceitação na aplicação.
 | Objetivo de medição | Verificar a usabilidade do projeto                                                                             |
 | ------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Entidade            | Testes                                                                                                         |
-| Tipo                |     Objetiva                                                                                                            |
-| Escala de medição   |                 Nominal                                                                                               |
+| Tipo                | Objetiva                                                                                                       |
+| Escala de medição   | Nominal                                                                                                        |
 | Coleta              | Coletado através de testes com potenciais usuários da aplicação                                                |
 | Procedimento        | Entrevistas com potenciais usuários solicitando para que eles cumpram algumas atividades utilizando o software |
 | Análise             | As dificuldades e facilidades que o usuário encontra ao utilizar a aplicação                                   |
@@ -140,10 +162,10 @@ Realização de testes de aceitação na aplicação.
 
 ### Métrica 3.0 - Teste unitário
 
-| Objetivo de medição | Verificar funcionalidades do software                                     |
+| Objetivo de medição | Verificar funcionalidades de partes individuais software                  |
 | ------------------- | ------------------------------------------------------------------------- |
 | Entidade            | Testes                                                                    |
-| Tipo                |         Objetiva                                                                  |
+| Tipo                | Objetiva                                                                  |
 | Escala de medição   |                                                                           |
 | Coleta              | Coleta através de scripts de testes no software                           |
 | Procedimento        | scripts funcionais para testar o software                                 |
@@ -152,15 +174,56 @@ Realização de testes de aceitação na aplicação.
 
 ### Métrica 4.0 - Teste de aceitação
 
-| Objetivo de medição | Verificar o sistema em relação aos seus requisitos originais |
-| ------------------- | ------------------------------------------------------------ |
-| Entidade            | Testes                                                       |
-| Tipo                |            Objetiva                                                  |
-| Escala de medição   |               Nominal                                               |
-| Coleta              |                  Coleta através de scripts de testes de aceitação no software                                            |
-| Procedimento        |    Observar os requisitos do software                                                 |
-| Análise             |                    Comparação entre os requisitos de software e as funcionalidades da aplicação                              s            |
-| Providência         |        Refatorar o código novamente de modo que as funcionalidades atendam sos requisitos                                                      |
+| Objetivo de medição | Verificar o sistema em relação aos seus requisitos originais                       |
+| ------------------- | ---------------------------------------------------------------------------------- |
+| Entidade            | Testes                                                                             |
+| Tipo                | Objetiva                                                                           |
+| Escala de medição   | Nominal                                                                            |
+| Coleta              | Coleta através de scripts de testes de aceitação no software                       |
+| Procedimento        | Observar os requisitos do software                                                 |
+| Análise             | Comparação entre os requisitos de software e as funcionalidades da aplicação s     |
+| Providência         | Refatorar o código novamente de modo que as funcionalidades atendam sos requisitos |
+
+### Métrica 5.0 - Teste exploratório
+
+| Objetivo de medição | Verificar funcionalidades e fluxos do sistema                                          |
+| ------------------- | -------------------------------------------------------------------------------------- |
+| Entidade            | Testes                                                                                 |
+| Tipo                | Objetiva                                                                               |
+| Escala de medição   | Nominal                                                                                |
+| Coleta              | Coleta através de testes exploratórios na aplicação                                    |
+| Procedimento        | Utilizar a metáfora do turista para explorar funcionalidades do aplicativo             |
+| Análise             | Possiveis erros que poderão ser encontrados em algumas partes do software              |
+| Providência         | Refatorar o código novamente de modo que as funcionalidades funcionem como o esperado. |
+
+# Referencial Teórico
+
+É certo que os testes realizados ao estilo _ad hoc_ tendem a levar muitos erros, uma vez que contém o critério livre em sua realização e execução. Para a cobertura de testes de um código, é necessário elaboração do planejamento do teste na qual uma das etapas é a elaboração da estratégia de
+teste (CRESPO, 2004). Essa estratégia de teste contempla em qual fase do desenvolvimento do software o teste será realizado, a técnica a ser utilizada, os critérios a serem adotados e o tipo de teste aplicado. A falta de planejamento na realização de testes tende a levar ao tempo gasto com testes que não cobrirão todas as funcionalides do código e que necessitarão de mais manutenção.
+
+Além disso, é possível que até mesmo os códigos automatizados contenham erros, por isso recomenda-se que os testes sejam escritos da maneira mais simples e sucinta possível. Evitar códigos longos, repletos de variáveis condicionais, responsáveis por muitas verificações e também com nomes que tornam difícil (BERNARDO, 2008) a sua compreensão são pontos que podem auxiliar na escrita de testes de software.
+
+O referencial bibliográfico deste trabalho trouxe informações importantes sobre os tipos de testes que serão utilizados, conforme demonstrado abaixo:
+
+- Testes unitários permitem maior cobertura de teste : <br>
+  O uso de teste unitários permite que testemos uma porção muito maior do código do sistema do que àquele feito manualmente. Sendo assim, torna-se mais fácil exercitar todos os caminhos possíveis do sistema nos testes unitários que nos testes manuais. Também torna-se mais fácil replicar condições determinadas com apenas a mudança de parâmetros em um método/classe, nos testes manuais seriam bem mais difícil tal acontecimento.
+
+- Testes unitários previnem regressão: <br>
+  Quando utilizamos testes unitários automatizados de forma consistente em uma boa suíte de teste, é possível evitar
+  que novas modificações no software façam com que as modificações antigas deixem de funcionar corretamente, ou ao menos, é possível ter o controle em qual funcionalidade isso ocorreu.
+
+- Testes unitários incentivam o refactoring: <br>
+  Com o objetivo de poder obter uma melhor qualidade de código de forma contínua, os testes unitários incentivam a refatoração, pois independente das modificações feitas na refatoração, as funcionalidades têm de estar funcionando da mesma maneira que estavam antes da refatoração.
+
+- Testes unitários evitam sessões de debug: <br>
+  Conforme novas funcionalidades são adicionadas ao software, o processo de debug torna-se cada vez mais trabalhoso. Sendo assim, os testes unitários nos ajudam a identificar mais rapidamente problemas nas funcionalidades.
+
+- Testes de unidade servem como documentação: <br>
+  Os testes unitários simbolizam o comportamento do sistema, portanto quando bem escritos, ajudam novos desenvolvedores
+  a entender o comportamento do sistema.
+
+- Testes de aceitação servem como validação do projeto:
+  Esses testes são realizados normalmente com o cliente, e, em caso de sua ausência, podem ser realizados também através da comparação entre os requisitos do software e o produto final. As simulações da operação de rotina do sistema são essenciais para verificar o comportamento do software.
 
 # Planejamento
 
@@ -176,39 +239,10 @@ A tabela de relação serviço x teste encontra-se abaixo.
 | Fontend      |       -        |         x          |          x           |         x          |
 | Translate-me |       x        |         -          |          -           |         x          |
 
-# Referencial Teórico
-
- É certo que os testes realizados ao estilo _ad hoc_ tendem a levar muitos erros, uma vez que contém o critério livre em sua realização e execução. Para a cobertura de testes de um código, é necessário elaboração do planejamento do teste na qual uma das etapas é a elaboração da estratégia de
-teste (CRESPO, 2004). Essa estratégia de teste contempla em qual fase do desenvolvimento do software o teste será realizado, a técnica a ser utilizada, os critérios a serem adotados e o tipo de teste aplicado. A falta de planejamento na realização de testes tende a levar ao tempo gasto com testes que não cobrirão todas as funcionalides do código e que necessitarão de mais manutenção.
-
-Além disso, é possível que até mesmo os códigos automatizados contenham erros, por isso recomenda-se que os testes sejam escritos da maneira mais simples e sucinta possível. Evitar códigos longos, repletos de variáveis condicionais, responsáveis por muitas verificações e também com nomes que tornam difícil (BERNARDO, 2008) a sua compreensão são pontos que podem auxiliar na escrita de testes de software.
-
-O referencial bibliográfico deste trabalho trouxe informações importantes sobre os tipos de testes que serão utilizados, conforme demonstrado abaixo:
-
-- Testes unitários permitem maior cobertura de teste : <br>
-O uso de teste unitários permite que testemos uma porção muito maior do código do sistema do que àquele feito manualmente. Sendo assim, torna-se mais fácil exercitar todos os caminhos possíveis do sistema nos testes unitários que nos testes manuais. Também torna-se mais fácil replicar condições determinadas com apenas a mudança de parâmetros em um método/classe, nos testes manuais seriam bem mais difícil tal acontecimento.
-
-- Testes unitários previnem regressão: <br>
-Quando utilizamos testes unitários automatizados de forma consistente em uma boa suíte de teste, é possível evitar
-que novas modificações no software façam com que as modificações antigas deixem de funcionar corretamente, ou ao menos, é possível ter o controle em qual funcionalidade isso ocorreu.
-
-- Testes unitários incentivam o refactoring: <br>
-Com o objetivo de poder obter uma melhor qualidade de código de forma contínua, os testes unitários incentivam a refatoração, pois independente das modificações feitas na refatoração, as funcionalidades têm de estar funcionando da mesma maneira que estavam antes da refatoração.
-
-- Testes unitários evitam sessões de debug: <br>
-Conforme novas funcionalidades são adicionadas ao software, o processo de debug torna-se cada vez mais trabalhoso. Sendo assim, os testes unitários nos ajudam a identificar mais rapidamente problemas nas funcionalidades.
-
-- Testes de unidade servem como documentação: <br>
-Os testes unitários simbolizam o comportamento do sistema, portanto quando bem escritos, ajudam novos desenvolvedores
-a entender o comportamento do sistema.
-
-- Testes de aceitação servem como validação do projeto:
-Esses testes são realizados normalmente com o cliente, e, em caso de sua ausência, podem ser realizados também através da comparação entre os requisitos do software e o produto final. As simulações da operação de rotina do sistema são essenciais para verificar o comportamento do software.
-
 # Referências Bibliográficas
 
-[1] [Translate-me](https://translate-me.github.io/docs/) <br>
-[2] [Técnicas e critérios de teste](https://www.tiespecialistas.com.br/tecnicas-e-criterios-de-teste/) <br>
+[1][translate-me](https://translate-me.github.io/docs/) <br>
+[2][técnicas e critérios de teste](https://www.tiespecialistas.com.br/tecnicas-e-criterios-de-teste/) <br>
 [3] CRESPO, Adalberto Nobiato et al. Uma metodologia para teste de Software no Contexto da Melhoria de Processo. <b> Simpósio Brasileiro de Qualidade de Software </b>, p. 271-285, 2004. <br>
 [4] BERNARDO, Paulo Cheque; KON, Fabio. <b> A importância dos Testes Automatizados. </b> Engenharia de Software Magazine, v. 1, n. 3, p. 54-57, 2008. <br>
 [5] NETO, Arilo. Introdução a teste de software. <b> Engenharia de Software Magazine, </b> v. 1, p. 22, 2007. <br>
