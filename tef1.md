@@ -1,19 +1,19 @@
 # Introdução
 
-Para o TeF1 o grupo 5 estará levando em conta alguns objetivos a serem realizados durante o projeto, como por exemplo uma melhoria na suíte de testes do software, o software escolhido como projeto real a ser trabalhado será o [Translate-me](https://github.com/translate-me/docs), por fim no projeto abordado teremos documentado uma melhoria de qualidade do software em relação a testes.
+Para o TeF1 o grupo 5 estará levando em conta alguns objetivos a serem realizados durante o projeto, como por exemplo uma melhoria na suíte de testes do software, o software escolhido como projeto real a ser trabalhado será o [*Translate-me*](https://github.com/*Translate-me*/docs), por fim no projeto abordado teremos documentado uma melhoria de qualidade do software em relação a testes.
 
 # Tema
 
-O tema definido no projeto será uma suíte de testes para uma projeto real que foi definido pelo grupo para desenvolvimento de uma suíte de testes para o software [Translate-me](https://github.com/translate-me/docs).
+O tema definido no projeto será uma suíte de testes para uma projeto real que foi definido pelo grupo para desenvolvimento de uma suíte de testes para o software [*Translate-me*](https://github.com/*Translate-me*/docs).
 
 # Problemas
 
-O intuito dos testes a serem realizados em todo o sistema [Translate-me](https://github.com/translate-me/docs), composto pelos serviços de **Autenticação**, **Profile**, **Fontend** e a api **Translate-me**, é garantir uma maior qualidade de código e usabilidade, assumindo uma integração mais eficiente entre os serviços e podendo medir a qualidade do projeto.
+O intuito dos testes a serem realizados em todo o sistema [*Translate-me*](https://github.com/*Translate-me*/docs), composto pelos serviços de **Autenticação**, **Profile**, **Frontend** e a api ***Translate-me***, é garantir uma maior qualidade de código e usabilidade, assumindo uma integração mais eficiente entre os serviços e podendo medir a qualidade do projeto.
 
 # Sistema
 
-O sistema que será testado é o [Translate-me](https://github.com/translate-me/docs), projeto realizado na disciplina de Arquitetura e Desenho de Software no 1º semestre de 2019.
-[Translate-me](https://github.com/translate-me/docs) é um sistema que consiste em conectar uma pessoa que precisa realizar a tradução de um texto com tradutores.
+O sistema que será testado é o [*Translate-me*](https://github.com/*Translate-me*/docs), projeto realizado na disciplina de Arquitetura e Desenho de Software no 1º semestre de 2019.
+[*Translate-me*](https://github.com/*Translate-me*/docs) é um sistema que consiste em conectar uma pessoa que precisa realizar a tradução de um texto com tradutores.
 
 # Testes
 
@@ -23,8 +23,8 @@ Testes unitário são feitos com a finalidade de verificar o funcionamento de um
 
 ### Teste automatizado
 
-Teste automazados é um processo executam scripts de teste pré-programados em uma aplicação. A automatização de teste tem como objetivo simplicar a vida dos testadores.
-Teste automatizado será utilizado para testar o front-end do translate-me.
+Teste automatizados é um processo executam scripts de teste pré-programados em uma aplicação. A automatização de teste tem como objetivo simplificar a vida dos testadores.
+Teste automatizado será utilizado para testar o frontend do *Translate-me*.
 
 ### Teste de usabilidade
 
@@ -62,7 +62,7 @@ As ferramentas utilizadas para a realização dos teste unitários e automatizad
 
 O aplicação do translate.me é bem testada?
 
-#### Metrica 1.0
+#### Métrica 1.0
 
 Cobertura de testes na aplicação
 
@@ -79,9 +79,9 @@ Cobertura de testes na aplicação
 
 O software é bem intuitivo?
 
-#### Metrica 2.0
+#### Métrica 2.0
 
-Relização de testes de usabilidade na aplicação.
+Realização de testes de usabilidade na aplicação.
 
 ## Objetivo de Equipe 3.0
 
@@ -94,9 +94,9 @@ Relização de testes de usabilidade na aplicação.
 
 ### Questão 3.0
 
-As funcionalidades funcionam idependentes de mudanças no código?
+As funcionalidades funcionam independentes de mudanças no código?
 
-#### Metrica 3.0
+#### Métrica 3.0
 
 Realização de testes unitários na aplicação.
 
@@ -113,7 +113,7 @@ Realização de testes unitários na aplicação.
 
 As funcionalidades estão de acordo com os requisitos do projeto?
 
-#### Metrica 4.0
+#### Métrica 4.0
 
 Realização de testes de aceitação na aplicação.
 
@@ -130,7 +130,7 @@ Realização de testes de aceitação na aplicação.
 
 As funcionalidades funcionam como deveriam?
 
-#### Metrica 5.0
+#### Métrica 5.0
 
 Realização de testes de exploratórios na aplicação.
 
@@ -150,15 +150,16 @@ Realização de testes de exploratórios na aplicação.
 
 ### Métrica 2.0 - Teste de usabilidade
 
-| Objetivo de medição | Verificar a usabilidade do projeto                                                                             |
-| ------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Entidade            | Testes                                                                                                         |
-| Tipo                | Objetiva                                                                                                       |
-| Escala de medição   | Nominal                                                                                                        |
-| Coleta              | Coletado através de testes com potenciais usuários da aplicação                                                |
-| Procedimento        | Entrevistas com potenciais usuários solicitando para que eles cumpram algumas atividades utilizando o software |
-| Análise             | As dificuldades e facilidades que o usuário encontra ao utilizar a aplicação                                   |
-| Providência         | Caso o software não esteja intuitivo, devem ser levantadas alternativas para deixar o programa mais usual      |
+| Objetivo de medição                                            | Verificar a usabilidade do projeto                                                                        |
+| -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Entidade                                                       | Testes                                                                                                    |
+| Tipo                                                           | Objetiva                                                                                                  |
+| Escala de medição                                              | Nominal                                                                                                   |
+| Coleta                                                         | Coletado através de testes com potenciais usuários da aplicação                                           |
+| Procedimento                                                   | Entrevistas com potenciais usuários solicitando                                                           |
+| para que eles cumpram algumas atividades utilizando o software |
+| Análise                                                        | As dificuldades e facilidades que o usuário encontra ao utilizar a aplicação                              |
+| Providência                                                    | Caso o software não esteja intuitivo, devem ser levantadas alternativas para deixar o programa mais usual |
 
 ### Métrica 3.0 - Teste unitário
 
@@ -169,7 +170,7 @@ Realização de testes de exploratórios na aplicação.
 | Escala de medição   |                                                                           |
 | Coleta              | Coleta através de scripts de testes no software                           |
 | Procedimento        | scripts funcionais para testar o software                                 |
-| Análise             | Possiveis erros que poderão ser encontrados em algumas partes do software |
+| Análise             | Possíveis erros que poderão ser encontrados em algumas partes do software |
 | Providência         | Refatorar o bloco de código que foi encontrado o erro                     |
 
 ### Métrica 4.0 - Teste de aceitação
@@ -193,13 +194,13 @@ Realização de testes de exploratórios na aplicação.
 | Escala de medição   | Nominal                                                                                |
 | Coleta              | Coleta através de testes exploratórios na aplicação                                    |
 | Procedimento        | Utilizar a metáfora do turista para explorar funcionalidades do aplicativo             |
-| Análise             | Possiveis erros que poderão ser encontrados em algumas partes do software              |
+| Análise             | Possíveis erros que poderão ser encontrados em algumas partes do software              |
 | Providência         | Refatorar o código novamente de modo que as funcionalidades funcionem como o esperado. |
 
 # Referencial Teórico
 
 É certo que os testes realizados ao estilo _ad hoc_ tendem a levar muitos erros, uma vez que contém o critério livre em sua realização e execução. Para a cobertura de testes de um código, é necessário elaboração do planejamento do teste na qual uma das etapas é a elaboração da estratégia de
-teste (CRESPO, 2004). Essa estratégia de teste contempla em qual fase do desenvolvimento do software o teste será realizado, a técnica a ser utilizada, os critérios a serem adotados e o tipo de teste aplicado. A falta de planejamento na realização de testes tende a levar ao tempo gasto com testes que não cobrirão todas as funcionalides do código e que necessitarão de mais manutenção.
+teste (CRESPO, 2004). Essa estratégia de teste contempla em qual fase do desenvolvimento do software o teste será realizado, a técnica a ser utilizada, os critérios a serem adotados e o tipo de teste aplicado. A falta de planejamento na realização de testes tende a levar ao tempo gasto com testes que não cobrirão todas as funcionalidades do código e que necessitarão de mais manutenção.
 
 Além disso, é possível que até mesmo os códigos automatizados contenham erros, por isso recomenda-se que os testes sejam escritos da maneira mais simples e sucinta possível. Evitar códigos longos, repletos de variáveis condicionais, responsáveis por muitas verificações e também com nomes que tornam difícil (BERNARDO, 2008) a sua compreensão são pontos que podem auxiliar na escrita de testes de software.
 
@@ -228,20 +229,20 @@ O referencial bibliográfico deste trabalho trouxe informações importantes sob
 # Planejamento
 
 Todos os testes serão realizados entre o período de 21/10 a 15/11.
-Para os testes, os membros do grupo se dividirão entre os serviços **Autenticação**, **Profile**, **Fontend** e a api **Translate-me**.
+Para os testes, os membros do grupo se dividirão entre os serviços **Autenticação**, **Profile**, **Frontend** e a api ***Translate-me***.
 
 A tabela de relação serviço x teste encontra-se abaixo.
 
-| Serviço      | Teste unitário | Teste automatizado | Teste de usabilidade | Teste de aceitação |
-| ------------ | :------------: | :----------------: | :------------------: | :----------------: |
-| Autenticação |       x        |         -          |          -           |         x          |
-| Profile      |       x        |         -          |          -           |         x          |
-| Fontend      |       -        |         x          |          x           |         x          |
-| Translate-me |       x        |         -          |          -           |         x          |
+| Serviço        | Teste unitário | Teste automatizado | Teste de usabilidade | Teste de aceitação |
+| -------------- | :------------: | :----------------: | :------------------: | :----------------: |
+| Autenticação   |       x        |         -          |          -           |         x          |
+| Profile        |       x        |         -          |          -           |         x          |
+| Frontend       |       -        |         x          |          x           |         x          |
+| *Translate-me* |       x        |         -          |          -           |         x          |
 
 # Referências Bibliográficas
 
-[1][translate-me](https://translate-me.github.io/docs/) <br>
+[1][*Translate-me*](https://*Translate-me*.github.io/docs/) <br>
 [2][técnicas e critérios de teste](https://www.tiespecialistas.com.br/tecnicas-e-criterios-de-teste/) <br>
 [3] CRESPO, Adalberto Nobiato et al. Uma metodologia para teste de Software no Contexto da Melhoria de Processo. <b> Simpósio Brasileiro de Qualidade de Software </b>, p. 271-285, 2004. <br>
 [4] BERNARDO, Paulo Cheque; KON, Fabio. <b> A importância dos Testes Automatizados. </b> Engenharia de Software Magazine, v. 1, n. 3, p. 54-57, 2008. <br>
