@@ -1,53 +1,75 @@
-# Introdução
 
-Para o TeF1 o grupo 5 estará levando em conta alguns objetivos a serem realizados durante o projeto, como por exemplo uma melhoria na suíte de testes do software, o software escolhido como projeto real a ser trabalhado será o [*Translate-me*](https://github.com/*Translate-me*/docs), por fim no projeto abordado teremos documentado uma melhoria de qualidade do software em relação a testes.
+<p align="center">
+  <img style="width:500px;" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg" alt="UnB" />
+</p>
+<h1 align="center">Universidade de Brasília</h1>
+<h2 align="center">Testes de Software - 2019/2</h3>
 
-# Tema
+<h2 align="center">Grupo 5</h3>
 
-O tema definido no projeto será uma suíte de testes para uma projeto real que foi definido pelo grupo para desenvolvimento de uma suíte de testes para o software [*Translate-me*](https://github.com/*Translate-me*/docs).
+<p align="center">Ezequiel de Oliveira dos Reis, 16/0119316 </p>
+<p align="center">Felipe Campos de Almeida, 16/0119553 </p>
+<p align="center">Gabriel Batista Albino Silva, 16/0028361 </p>
+<p align="center">Gabriel de Jesus Carvalho, 16/0120918</p>
+<p align="center">Gabriela Barrozo Guedes, 16/0121612 </p>
+<p align="center">Helena Bretas Goulart, 16/0124034 </p>
+<p align="center">Leticia Meneses Bandeira da Silva, 16/0131936 </p>
+<p align="center">Vitor Leal dos Santos, 16/0148375</p>
 
-# Problemas
+***
 
-O intuito dos testes a serem realizados em todo o sistema [*Translate-me*](https://github.com/*Translate-me*/docs), composto pelos serviços de **Autenticação**, **Profile**, **Frontend** e a api ***Translate-me***, é garantir uma maior qualidade de código e usabilidade, assumindo uma integração mais eficiente entre os serviços e podendo medir a qualidade do projeto.
+# TFe1
 
-# Sistema
 
-O sistema que será testado é o [*Translate-me*](https://github.com/*Translate-me*/docs), projeto realizado na disciplina de Arquitetura e Desenho de Software no 1º semestre de 2019.
-[*Translate-me*](https://github.com/*Translate-me*/docs) é um sistema que consiste em conectar uma pessoa que precisa realizar a tradução de um texto com tradutores.
+## Introdução
 
-# Testes
+Para o TeF1 o grupo 5 estará levando em conta alguns objetivos a serem realizados durante o projeto, como por exemplo, uma melhoria na suíte de testes do software escolhido. O grupo optou por um projeto real a ser trabalhado, o [*Translate-me*](https://github.com/*Translate-me*/docs). No fim do projeto abordado teremos documentado as melhorias de qualidade obtidas sobre o software em relação a testes.
 
-### Teste unitário
+## Tema
 
-Testes unitário são feitos com a finalidade de verificar o funcionamento de um pedaços isolados do sistema e que possam ser testados separadamente.
+O tema definido no projeto é o desenvolvimento de uma suíte de testes para software [*Translate-me*](https://github.com/*Translate-me*/docs).
 
-### Teste automatizado
+## Problemas
 
-Teste automatizados é um processo executam scripts de teste pré-programados em uma aplicação. A automatização de teste tem como objetivo simplificar a vida dos testadores.
-Teste automatizado será utilizado para testar o frontend do *Translate-me*.
+O intuito dos testes a serem realizados em todo o sistema [*Translate-me*](https://github.com/*Translate-me*/docs), composto pelos serviços de **Autenticação**, **Profile**, **Frontend** e a api ***Translate-me***, é garantir uma maior qualidade de código e usabilidade, assumindo uma integração mais eficiente entre os serviços e podendo medir efetivamente a qualidade do projeto.
 
-### Teste de usabilidade
+## Sistema
 
-Os testes devem ser realizados com um usuário para verificar a facilidade do uso do software. Devem ser levados em conta o conteúdo e a clareza.
+O sistema a ser testado é o [*Translate-me*](https://github.com/*Translate-me*/docs), projeto desenvolvido na disciplina de *Arquitetura e Desenho de Software* no 1º semestre de 2019.
+[*Translate-me*](https://github.com/*Translate-me*/docs) é um sistema que consiste em conectar tradutores com pessoas interessadas em consumir o serviço de tradução de textos.
 
-### Teste de aceitação
+## Testes
 
-Os testes de aceitação são realizados por algum usuário, para verificar se a solução atende aos requisitos do projeto. Voltados para funcionalidades e usabilidades, esses testes são realizados com o suporte da equipe dos desenvolvedores, auxiliando o usuário.
+- ### Teste Unitário
 
-### Teste exploratório
+Testes unitários são feitos com a finalidade de verificar o funcionamento de um pedaços isolados do código do sistema, em sua menor fração e que possam ser testados separadamente.
 
-Os testes exploratórios são realizados por algum usuário, para verificar se há erros nos fluxos da aplicação. Voltados para usabilidade e falhas, eles são realizados com o testador tomando decisões sobre o que será testado durante a execução do teste ao invés de seguir um roteiro previamente planejado.
+- ### Teste Automatizado
 
-# Ferramentas
+O testes automatizado é um processo de execução de scripts de teste pré-programados em uma aplicação. A automatização de teste tem como objetivo ajudar na execução de muitos casos de teste de consistentemente e em repetidas ocasiões.
+
+- ### Teste de Usabilidade
+
+Os testes de usabilidade consistem na observação de usuários reais durante a utilização do produto. O objetivo é descobrir problemas e pontos de melhoria no software de acordo com as dificuldades apresentadas pelos usuários. Devem ser levados em conta o desempenho, a precisão e a clareza com que os fluxos da aplicação são identificados pelo usuário.
+
+- ### Teste de Aceitação
+
+Os testes de aceitação são realizados por algum usuário, com o objetivo de verificar se a solução atende aos requisitos do projeto. Voltados para funcionalidades e usabilidade, esses testes são realizados com o suporte da equipe dos desenvolvedores, auxiliando o usuário.
+
+- ### Teste Exploratório
+
+Os testes exploratórios são realizados por algum usuário, com o objetivo de verificar se há erros nos fluxos da aplicação. Voltados para usabilidade e falhas, eles são realizados com o testador tomando decisões sobre o que será testado durante a execução do teste ao invés de seguir um roteiro previamente planejado.
+
+## Ferramentas
 
 As ferramentas utilizadas para a realização dos teste unitários e automatizados serão:
 
-- Pytest
-- Unittest
-- Selenium
-- Jest
+- [*Pytest*](https://docs.pytest.org/en/latest/)
+- [*Unittest*](https://docs.python.org/3/library/unittest.html)
+- [*Selenium*](https://www.seleniumhq.org/)
+- [*Jest*](https://jestjs.io/)
 
-# GQM
+## GQM
 
 ## Objetivo de Equipe 1.0
 
@@ -60,7 +82,7 @@ As ferramentas utilizadas para a realização dos teste unitários e automatizad
 
 ### Questão 1.0
 
-O aplicação do translate.me é bem testada?
+O aplicação *Translate-me* é bem testada?
 
 #### Métrica 1.0
 
@@ -134,7 +156,7 @@ As funcionalidades funcionam como deveriam?
 
 Realização de testes de exploratórios na aplicação.
 
-## Detalhamento das métricas
+## Detalhamento das Métricas
 
 ### Métrica 1.0 - Cobertura de testes na aplicação
 
@@ -197,7 +219,7 @@ Realização de testes de exploratórios na aplicação.
 | Análise             | Possíveis erros que poderão ser encontrados em algumas partes do software              |
 | Providência         | Refatorar o código novamente de modo que as funcionalidades funcionem como o esperado. |
 
-# Referencial Teórico
+## Referencial Teórico
 
 É certo que os testes realizados ao estilo _ad hoc_ tendem a levar muitos erros, uma vez que contém o critério livre em sua realização e execução. Para a cobertura de testes de um código, é necessário elaboração do planejamento do teste na qual uma das etapas é a elaboração da estratégia de
 teste (CRESPO, 2004). Essa estratégia de teste contempla em qual fase do desenvolvimento do software o teste será realizado, a técnica a ser utilizada, os critérios a serem adotados e o tipo de teste aplicado. A falta de planejamento na realização de testes tende a levar ao tempo gasto com testes que não cobrirão todas as funcionalidades do código e que necessitarão de mais manutenção.
@@ -207,7 +229,7 @@ Além disso, é possível que até mesmo os códigos automatizados contenham err
 O referencial bibliográfico deste trabalho trouxe informações importantes sobre os tipos de testes que serão utilizados, conforme demonstrado abaixo:
 
 - Testes unitários permitem maior cobertura de teste : <br>
-  O uso de teste unitários permite que testemos uma porção muito maior do código do sistema do que àquele feito manualmente. Sendo assim, torna-se mais fácil exercitar todos os caminhos possíveis do sistema nos testes unitários que nos testes manuais. Também torna-se mais fácil replicar condições determinadas com apenas a mudança de parâmetros em um método/classe, nos testes manuais seriam bem mais difícil tal acontecimento.
+  O uso de testes unitários permite que testemos uma porção muito maior do código do sistema do que àquele feito manualmente. Sendo assim, torna-se mais fácil exercitar todos os caminhos possíveis do sistema nos testes unitários que nos testes manuais. Também torna-se mais fácil replicar condições determinadas com apenas a mudança de parâmetros em um método/classe, nos testes manuais seriam bem mais difícil tal acontecimento.
 
 - Testes unitários previnem regressão: <br>
   Quando utilizamos testes unitários automatizados de forma consistente em uma boa suíte de teste, é possível evitar
@@ -226,7 +248,7 @@ O referencial bibliográfico deste trabalho trouxe informações importantes sob
 - Testes de aceitação servem como validação do projeto:
   Esses testes são realizados normalmente com o cliente, e, em caso de sua ausência, podem ser realizados também através da comparação entre os requisitos do software e o produto final. As simulações da operação de rotina do sistema são essenciais para verificar o comportamento do software.
 
-# Planejamento
+## Planejamento
 
 Todos os testes serão realizados entre o período de 21/10 a 15/11.
 Para os testes, os membros do grupo se dividirão entre os serviços **Autenticação**, **Profile**, **Frontend** e a api ***Translate-me***.
@@ -240,7 +262,7 @@ A tabela de relação serviço x teste encontra-se abaixo.
 | Frontend       |       -        |         x          |          x           |         x          |
 | *Translate-me* |       x        |         -          |          -           |         x          |
 
-# Referências Bibliográficas
+## Referências Bibliográficas
 
 [1][*Translate-me*](https://*Translate-me*.github.io/docs/) <br>
 [2][técnicas e critérios de teste](https://www.tiespecialistas.com.br/tecnicas-e-criterios-de-teste/) <br>
