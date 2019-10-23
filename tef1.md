@@ -3,7 +3,7 @@
   <img style="width:500px;" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Webysther_20160322_-_Logo_UnB_%28sem_texto%29.svg" alt="UnB" />
 </p>
 <h1 align="center">Universidade de Brasília</h1>
-<h2 align="center">Testes de *Software* - 2019/2</h3>
+<h2 align="center">Testes de Software - 2019/2</h3>
 
 <h2 align="center">Grupo 5</h3>
 
@@ -281,12 +281,12 @@ Para os testes, os membros do grupo se dividirão entre os serviços **Autentica
 
 A tabela de relação serviço x teste encontra-se abaixo.
 
-| Serviço        | Teste unitário | Teste automatizado | Teste de usabilidade | Teste de aceitação |
-| -------------- | :------------: | :----------------: | :------------------: | :----------------: |
-| Autenticação   |       x        |         -          |          -           |         x          |
-| Profile        |       x        |         -          |          -           |         x          |
-| Frontend       |       -        |         x          |          x           |         x          |
-| *Translate-me* |       x        |         -          |          -           |         x          |
+| Serviço        | Teste unitário | Teste automatizado | Teste de usabilidade | Teste de aceitação | Teste exploratório |
+| -------------- | :------------: | :----------------: | :------------------: | :----------------: | :----------------: |
+| Autenticação   |       x        |         -          |          -           |         x          |         -          |
+| Profile        |       x        |         -          |          -           |         x          |         -          |
+| Frontend       |       -        |         x          |          x           |         x          |         x          |
+| *Translate-me* |       x        |         -          |          -           |         x          |         -          |
 
 ## Referências Bibliográficas
 
