@@ -23,51 +23,71 @@
 
 ## Introdução
 
-Para o TeF1 o grupo 5 estará levando em conta alguns objetivos a serem realizados durante o projeto, como por exemplo, uma melhoria na suíte de testes do *software* escolhido. O grupo optou por um projeto real a ser trabalhado, o [*Translate-me*](https://github.com/*Translate-me*/docs). No fim do projeto abordado teremos documentado as melhorias de qualidade obtidas sobre o *software* em relação a testes.
+Para o TeF1 o grupo 5 estará levando em conta alguns objetivos a serem realizados durante o projeto, como por exemplo, uma melhoria na suíte de testes do *software* escolhido. O grupo optou por um projeto real a ser trabalhado, o [*translate.me*](https://github.com/Translate-me/docs). No fim do projeto abordado teremos documentado as melhorias de qualidade obtidas sobre o *software* em relação a testes.
 
 ## Tema
 
-O tema definido no projeto é o desenvolvimento de uma suíte de testes para *software* [*Translate-me*](https://github.com/*Translate-me*/docs).
+O tema definido no projeto é o desenvolvimento de uma suíte de testes para o *software* [*translate.me*](https://github.com/Translate-me/docs).
 
 ## Problemas
 
-O intuito dos testes a serem realizados em todo o sistema [*Translate-me*](https://github.com/*Translate-me*/docs), composto pelos serviços de **Autenticação**, **Profile**, **Frontend** e a api ***Translate-me***, é garantir uma maior qualidade de código e usabilidade, assumindo uma integração mais eficiente entre os serviços e podendo medir efetivamente a qualidade do projeto.
+O intuito dos testes a serem realizados em todo o sistema [*translate.me*](https://github.com/Translate-me/docs), composto pelos serviços de **Autenticação**, **Profile**, **Frontend** e a api *translate.me*, é garantir uma maior qualidade de código e usabilidade, assumindo uma integração mais eficiente entre os serviços e podendo medir efetivamente a qualidade do projeto.
 
 ## Sistema
 
-O sistema a ser testado é o [*Translate-me*](https://github.com/*Translate-me*/docs), projeto desenvolvido na disciplina de *Arquitetura e Desenho de Software* no 1º semestre de 2019.
-[*Translate-me*](https://github.com/*Translate-me*/docs) é um sistema que consiste em conectar tradutores com pessoas interessadas em consumir o serviço de tradução de textos.
+O sistema a ser testado é o [*translate.me*](https://github.com/Translate-me/docs), projeto desenvolvido na disciplina de *Arquitetura e Desenho de Software* no 1º semestre de 2019.
+[*translate.me*](https://github.com/Translate-me/docs) é um sistema que consiste em conectar tradutores com pessoas interessadas em consumir o serviço de tradução de textos.
 
 ## Testes
-
-- ### Teste Unitário
-
-Testes unitários são feitos com a finalidade de verificar o funcionamento de um pedaços isolados do código do sistema, em sua menor fração e que possam ser testados separadamente.
 
 - ### Teste Automatizado
 
 O testes automatizado é um processo de execução de scripts de teste pré-programados em uma aplicação. A automatização de teste tem como objetivo ajudar na execução de muitos casos de teste de consistentemente e em repetidas ocasiões.
 
-- ### Teste de Usabilidade
+- ### Teste Funcional
 
-Os testes de usabilidade consistem na observação de usuários reais durante a utilização do produto. O objetivo é descobrir problemas e pontos de melhoria no *software* de acordo com as dificuldades apresentadas pelos usuários. Devem ser levados em conta o desempenho, a precisão e a clareza com que os fluxos da aplicação são identificados pelo usuário.
-
-- ### Teste de Aceitação
-
-Os testes de aceitação são realizados por algum usuário, com o objetivo de verificar se a solução atende aos requisitos do projeto. Voltados para funcionalidades e usabilidade, esses testes são realizados com o suporte da equipe dos desenvolvedores, auxiliando o usuário.
+Esse teste avalia o comportamento da aplicação, sendo fornecido dados de entrada e após a execução, os resultados obtidos são comparados com os resultados esperados. Esse tipo de teste é indicado para detectar erros de interface, de comportamento e/ou desempenho.
 
 - ### Teste Exploratório
 
 Os testes exploratórios são realizados por algum usuário, com o objetivo de verificar se há erros nos fluxos da aplicação. Voltados para usabilidade e falhas, eles são realizados com o testador tomando decisões sobre o que será testado durante a execução do teste ao invés de seguir um roteiro previamente planejado.
 
+- ### Teste de Aceitação
+Os testes de aceitação são realizados por algum usuário, com o objetivo de verificar se a solução atende aos requisitos do projeto. Voltados para funcionalidades e usabilidade, esses testes são realizados com o suporte da equipe dos desenvolvedores, auxiliando o usuário.
+
+## Como testar?
+Utilizando técnicas de teste de software.
+
+### Técnicas
+* Análise de valor limite
+* Caixa Preta
+* Tabelas de Decisão
+* Transição de Estados
+* Particionamento de equivalência 
+
+## Onde testar?
+* Frontend da aplicação
+* Serviços da aplicação
+
+## Quando testar?
+
+Os testes são realizados de alto nível para baixo nível.
+
+### Nível
+1. Teste Exploratório
+1. Teste de Aceitação dentro do sistema
+1. Teste Funcional
+1. Teste Automatizado
+
+## O que testar?
+* Funções
+* Integridade
+* Desempenho
+* Congruência com os requisitos
+
 ## Ferramentas
 
-As ferramentas utilizadas para a realização dos teste unitários e automatizados serão:
-
-- [*Pytest*](https://docs.pytest.org/en/latest/)
-- [*Unittest*](https://docs.python.org/3/library/unittest.html)
-- [*Selenium*](https://www.seleniumhq.org/)
-- [*Jest*](https://jestjs.io/)
+A ferramenta utilizada para a realização do testes automatizados será o [*Selenium*](https://www.seleniumhq.org/).
 
 ## GQM
 
@@ -127,25 +147,6 @@ Um conjunto de métricas, baseado nos modelos, é associado a todas as perguntas
 
 - ## Objetivo 3
 
-  | Analisar           | Funcionalidades separadamente                 |
-  | ------------------ | --------------------------------------------- |
-  | Com o proposito de | Verificar se a aplicação continua funcionando |
-  | Em relação a       | alteração na base de código                   |
-  | Do ponto de vista  | Aplicação                                     |
-  | No contexto        | *Software*                                    |
-
-- ## Questão 3
-
-  As funcionalidades funcionam independentes de mudanças no código?
-
-- ## Métrica 3
-
-  Realização de testes unitários na aplicação.
-
-***
-
-- ## Objetivo 4
-
     | Analisar           | Qualidade                                       |
     | ------------------ | ----------------------------------------------- |
     | Com o proposito de | Verificar os requisitos de aceitação do usuário |
@@ -153,17 +154,17 @@ Um conjunto de métricas, baseado nos modelos, é associado a todas as perguntas
     | Do ponto de vista  | usuário                                         |
     | No contexto        | Qualidade                                       |
 
-- ### Questão 4
+- ### Questão 3
 
   As funcionalidades estão de acordo com os requisitos do projeto?
 
-- ### Métrica 4
+- ### Métrica 3
 
   Realização de testes de aceitação na aplicação.
 
 ***
 
-- ## Objetivo 5
+- ## Objetivo 4
 
   | Analisar           | Funcionalidades do aplicativo |
   | ------------------ | ----------------------------- |
@@ -172,11 +173,11 @@ Um conjunto de métricas, baseado nos modelos, é associado a todas as perguntas
   | Do ponto de vista  | Usuário                       |
   | No contexto        | Qualidade                     |
 
-- ### Questão 5
+- ### Questão 4
 
   As funcionalidades funcionam como deveriam?
 
-- ### Métrica 5
+- ### Métrica 4
 
   Realização de testes de exploratórios na aplicação.
 
@@ -209,19 +210,7 @@ Um conjunto de métricas, baseado nos modelos, é associado a todas as perguntas
 | Análise                                                          | As dificuldades e facilidades que o usuário encontra ao utilizar a aplicação                                |
 | Providência                                                      | Caso o *software* não esteja intuitivo, devem ser levantadas alternativas para deixar o programa mais usual |
 
-### Métrica 3 - Teste unitário
-
-| Objetivo de medição | Verificar funcionalidades de partes individuais *software*                  |
-| ------------------- | --------------------------------------------------------------------------- |
-| Entidade            | Testes                                                                      |
-| Tipo                | Objetiva                                                                    |
-| Escala de medição   |                                                                             |
-| Coleta              | Coleta através de scripts de testes no *software*                           |
-| Procedimento        | scripts funcionais para testar o *software*                                 |
-| Análise             | Possíveis erros que poderão ser encontrados em algumas partes do *software* |
-| Providência         | Refatorar o bloco de código que foi encontrado o erro                       |
-
-### Métrica 4 - Teste de aceitação
+### Métrica 3 - Teste de aceitação
 
 | Objetivo de medição | Verificar o sistema em relação aos seus requisitos originais                       |
 | ------------------- | ---------------------------------------------------------------------------------- |
@@ -233,7 +222,7 @@ Um conjunto de métricas, baseado nos modelos, é associado a todas as perguntas
 | Análise             | Comparação entre os requisitos de *software* e as funcionalidades da aplicação s   |
 | Providência         | Refatorar o código novamente de modo que as funcionalidades atendam sos requisitos |
 
-### Métrica 5 - Teste exploratório
+### Métrica 4 - Teste exploratório
 
 | Objetivo de medição | Verificar funcionalidades e fluxos do sistema                                          |
 | ------------------- | -------------------------------------------------------------------------------------- |
@@ -277,7 +266,7 @@ O referencial bibliográfico deste trabalho trouxe informações importantes sob
 ## Planejamento
 
 Todos os testes serão realizados entre o período de 21/10 a 15/11.
-Para os testes, os membros do grupo se dividirão entre os serviços **Autenticação**, **Profile**, **Frontend** e a api ***Translate-me***.
+Para os testes, os membros do grupo se dividirão entre os serviços **Autenticação**, **Profile**, **Frontend** e a api ***translate.me***.
 
 A tabela de relação serviço x teste encontra-se abaixo.
 
@@ -286,14 +275,16 @@ A tabela de relação serviço x teste encontra-se abaixo.
 | Autenticação   |       x        |         -          |          -           |         x          |         -          |
 | Profile        |       x        |         -          |          -           |         x          |         -          |
 | Frontend       |       -        |         x          |          x           |         x          |         x          |
-| *Translate-me* |       x        |         -          |          -           |         x          |         -          |
+| *translate.me* |       x        |         -          |          -           |         x          |         -          |
 
 ## Referências Bibliográficas
 
-[1][*Translate-me*](https://*Translate-me*.github.io/docs/) <br>
+[1][*translate.me*](https://Translate-me.github.io/docs/) <br>
 [2][técnicas e critérios de teste](https://www.tiespecialistas.com.br/tecnicas-e-criterios-de-teste/) <br>
 [3] CRESPO, Adalberto Nobiato et al. Uma metodologia para teste de *Software* no Contexto da Melhoria de Processo. <b> Simpósio Brasileiro de Qualidade de *Software* </b>, p. 271-285, 2004. <br>
 [4] BERNARDO, Paulo Cheque; KON, Fabio. <b> A importância dos Testes Automatizados. </b> Engenharia de *Software* Magazine, v. 1, n. 3, p. 54-57, 2008. <br>
 [5] NETO, Arilo. Introdução a teste de *software*. <b> Engenharia de *Software* Magazine, </b> v. 1, p. 22, 2007. <br>
 [6] CARVALHO, Ana Amélia Amorim. Testes de Usabilidade: exigência supérflua ou necessidade. In: <b> Actas do 5º congresso da sociedade portuguesa de ciências da educação. </b> 2002. p. 235-242. <br>
 [7] ZHU, Hong; HALL, Patrick AV; MAY, John HR. <b> *Software* unit test coverage and adequacy </b>. Acm computing surveys (csur), v. 29, n. 4, p. 366-427, 1997.
+
+
