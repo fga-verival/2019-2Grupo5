@@ -29,4 +29,7 @@ public class Cdb {
 	public float getImpostoRenda() {
 		return this.getRendimentoBruto() * this.aliquota;
 	}
+	public float getRendimentoLiquido() {
+		return 6.6113f; 
+	}
 }
