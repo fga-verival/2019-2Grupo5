@@ -10,7 +10,37 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 import src.Cdb;
 
+@RunWith(Parameterized.class)
+
 public class ImpostoDeRenda {
+
+    @Parameters
+    public static Collection<Object[]> data() {
+        return Arrays.asList(new Object[][] {     
+                 {120,500f,8f,2.96f},
+                 {240,3000f,9f,35.51f},
+                 {270,2000f,8.5f,25.15f}
+           });
+    }
+    
+    private int a;
+    private float b;
+    private float c;
+    private float d;
+    
+    public ImpostoDeRenda(int a, float b, float c ,float d) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+        this.d = d;
+    }
+    
+    @Test
+    public void testeImpostoDeRendaParametrizado() {
+    	Cdb cdb = new Cdb(a,b,c);
+        assertEquals(d, cdb.getImpostoRenda(), 0.01);
+    }
+    
 	@Test
 	public void testeImpostoRenda()
 	{
