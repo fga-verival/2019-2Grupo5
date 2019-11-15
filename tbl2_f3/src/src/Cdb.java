@@ -15,4 +15,8 @@ public class Cdb {
 		float result = this.capitalInicial * this.taxa * (this.dias/365.0f);
 		return result;
 	}
+	
+	public float getImpostoRenda() {
+		return 3.14f;
+	}
 }
