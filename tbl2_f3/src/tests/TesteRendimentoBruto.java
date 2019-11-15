@@ -12,9 +12,9 @@ public class TesteRendimentoBruto {
 	public void testeRendimentoBruto()
 	{
 		Cdb cdb = new Cdb(60,1000f,8.5f);
-		
+		System.out.println(cdb.getRendimentoBruto());
 		assertNotNull(cdb);
-		assertEquals(cdb.getRendimentoBruto(),13.97,0.001);
+		assertEquals(cdb.getRendimentoBruto(),13.97,0.01);
 	}
 	
 	@Test
@@ -22,7 +22,7 @@ public class TesteRendimentoBruto {
 		Cdb cdb = new Cdb(120,500f,8.0f);
 		
 		assertNotNull(cdb);
-		assertEquals(cdb.getRendimentoBruto(),13.15,0.001);
+		assertEquals(cdb.getRendimentoBruto(),13.15,0.01);
 	}
 	
 }

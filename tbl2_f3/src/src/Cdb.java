@@ -12,6 +12,7 @@ public class Cdb {
 	}
 	
 	public float getRendimentoBruto() {
-		return 13.97f;
+		float result = this.capitalInicial * this.taxa * (this.dias/365.0f);
+		return result;
 	}
 }
