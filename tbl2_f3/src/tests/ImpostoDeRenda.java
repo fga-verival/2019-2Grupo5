@@ -18,4 +18,12 @@ public class ImpostoDeRenda {
 		assertNotNull(cdb);
 		assertEquals(cdb.getImpostoRenda(),3.14f,0.01);
 	}
+	
+	@Test
+	public void testeImpostoRenda2()
+	{
+		Cdb cdb = new Cdb(120,500f,8f);
+		assertNotNull(cdb);
+		assertEquals(cdb.getImpostoRenda(),2.96f,0.01);
+	}
 }
