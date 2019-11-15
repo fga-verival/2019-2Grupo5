@@ -11,9 +11,18 @@ public class TesteRendimentoBruto {
 	@Test
 	public void testeRendimentoBruto()
 	{
-		Cdb cdb = new Cdb(60f,1000f,8.5f);
+		Cdb cdb = new Cdb(60,1000f,8.5f);
 		
 		assertNotNull(cdb);
 		assertEquals(cdb.getRendimentoBruto(),13.97,0.001);
 	}
+	
+	@Test
+	public void testeRendimentoBruto2() {
+		Cdb cdb = new Cdb(120,500f,8.0f);
+		
+		assertNotNull(cdb);
+		assertEquals(cdb.getRendimentoBruto(),13.15,0.001);
+	}
+	
 }

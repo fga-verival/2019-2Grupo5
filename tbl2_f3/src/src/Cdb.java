@@ -1,11 +1,11 @@
 package src;
 
 public class Cdb {
-	private float dias;
+	private int dias;
 	private float capitalInicial;
 	private float taxa;
 	
-	public Cdb(float dias,float capitalInicial,float taxa) {
+	public Cdb(int dias,float capitalInicial,float taxa) {
 		this.dias = dias;
 		this.capitalInicial = capitalInicial;
 		this.taxa = taxa/100;
