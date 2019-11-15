@@ -30,6 +30,9 @@ public class Cdb {
 		return this.getRendimentoBruto() * this.aliquota;
 	}
 	public float getRendimentoLiquido() {
-		return 6.6113f; 
+		float capitalFinal = this.getRendimentoBruto() - this.getImpostoRenda(); 
+		capitalFinal += this.capitalInicial;
+		
+		return (capitalFinal/this.capitalInicial * 100) - 100;  
 	}
 }
