@@ -23,7 +23,18 @@ A técnica da triangularização é explicada através da analogia da triangula�
 
 ## Como triangularizar com parâmetros em frameworks de testes unitários
 
-No uso TDD são usados alguns parâmetros para testar um mesmo módulo e saber a veracidade sobre o que está sendo testado. Nos frameworks de testes unitários, por exemplo, a solução para utilizar a triangularização e aplicar em um mesmo teste conjuntos de entrada e saídas esperadas para considerar que aquele módulo que está sendo testado está correto.
+No uso do TDD são usados alguns parâmetros para testar um mesmo módulo e saber a veracidade sobre o que está sendo testado. Nos frameworks de testes unitários, por exemplo, a solução para utilizar a triangularização e aplicar em um mesmo teste conjuntos de entrada e saídas esperadas para considerar que aquele módulo que está sendo testado está correto.
 
-## Análise sobre as técnincas utilizadas
+## Análise sobre as técnicas utilizadas
 
+As facilidades encontradas nas técnicas utilizadas foram : <br>
+
+-  Permitiu uma visão mais objetiva do problema <br>
+-  Código limpo e bem escrito <br>
+-  Maior manutenabilidade do código <br>
+
+A principal dificuldade encontrada nas técnicas utilizadas foi : <br>
+
+-   Aumento no tempo de desenvolvimento de uma funcionalidade/parte do problema <br>
+
+Com isso, podemos concluir que, o uso do TDD ofereceu um mecanismo de auxílio no combate à complexidade do problema apresentado, facilitando o entendimento e o desenvolvimento das funcionalidades do mesmo, gerando um código de qualidade que atende às especificações do problema.
