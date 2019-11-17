@@ -2,16 +2,16 @@
 
 ### Alunos
 
-| Nome | Matrícula |
-|------|-----------|
-| Ezequiel de Oliveira dos Reis | 16/0119316 |
-| Felipe Campos de Almeida | 16/0119553 |
-| Gabriel Batista Albino Silva | 16/0028361 |
-| Gabriel de Jesus Carvalho | 16/0120918 |
-| Gabriela Barrozo Guedes | 16/0121612 |
-| Helena Bretas Goulart | 16/0124034 |
-| Leticia Meneses Bandeira da Silva | 16/0131936 |
-| Vitor Leal dos Santos | 16/0148375 |
+| Nome | Matrícula | Contribuição % |
+|------|-----------|----------------|
+| Ezequiel de Oliveira dos Reis | 16/0119316 | 100 |
+| Felipe Campos de Almeida | 16/0119553 | 100 |
+| Gabriel Batista Albino Silva | 16/0028361 | 100 |
+| Gabriel de Jesus Carvalho | 16/0120918 | 100 |
+| Gabriela Barrozo Guedes | 16/0121612 | 100 |
+| Helena Bretas Goulart | 16/0124034 | 100 |
+| Leticia Meneses Bandeira da Silva | 16/0131936 | 100 |
+| Vitor Leal dos Santos | 16/0148375 | 100 |
 
 ---
 
