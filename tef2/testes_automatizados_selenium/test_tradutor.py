@@ -11,40 +11,40 @@ from selenium.webdriver.common.keys import Keys
 
 class TestTradutor():
   def setup_method(self, method):
-    self.driver = webdriver.Chrome('/home/leticia/chromedriver_linux64/chromedriver.exe')
+    self.driver = webdriver.Chrome()
     self.vars = {}
   
   def teardown_method(self, method):
     self.driver.quit()
   
   def test_tradutor(self):
-    self.driver.get("http://localhost:3000/login")
+    self.driver.get("http://localhost:3000/")
     self.driver.set_window_size(1853, 1053)
-    self.driver.find_element(By.ID, "formBasicEmail").click()
-    self.driver.find_element(By.ID, "formBasicEmail").send_keys("leticiamenesesb")
-    self.driver.find_element(By.ID, "formBasicPassword").send_keys("senha121212")
-    self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
-    self.driver.find_element(By.CSS_SELECTOR, ".fa-graduation-cap").click()
-    self.driver.find_element(By.CSS_SELECTOR, "form > .form-group:nth-child(1) > .form-control").click()
-    self.driver.find_element(By.CSS_SELECTOR, "form > .form-group:nth-child(1) > .form-control").send_keys("04676185189")
-    self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
-    self.driver.find_element(By.CSS_SELECTOR, ".fa-graduation-cap").click()
-    self.driver.find_element(By.CSS_SELECTOR, ".filepond--label-action").click()
-    self.driver.find_element(By.CSS_SELECTOR, "form > .form-group:nth-child(1) > .form-control").click()
-    self.driver.find_element(By.CSS_SELECTOR, "form > .form-group:nth-child(1) > .form-control").send_keys("04676185189")
-    self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
-    self.driver.find_element(By.LINK_TEXT, "Perfil").click()
-    self.driver.find_element(By.LINK_TEXT, "Sair").click()
     self.driver.find_element(By.CSS_SELECTOR, ".fa-sign-in-alt > path").click()
     self.driver.find_element(By.LINK_TEXT, "Clique aqui").click()
     self.driver.find_element(By.ID, "formBasicEmail").click()
-    self.driver.find_element(By.ID, "formBasicEmail").send_keys("leticiamensesb")
-    self.driver.find_element(By.ID, "formBasicPassword").send_keys("senha121212")
-    self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
-    self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
+    self.driver.find_element(By.ID, "formBasicEmail").send_keys("leticiambs")
+    self.driver.find_element(By.ID, "formBasicPassword").send_keys("senha123456")
     self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
     self.driver.find_element(By.ID, "formBasicEmail").click()
-    self.driver.find_element(By.ID, "formBasicEmail").send_keys("leticiamenesesb")
+    self.driver.find_element(By.ID, "formBasicEmail").click()
+    element = self.driver.find_element(By.ID, "formBasicEmail")
+    actions = ActionChains(self.driver)
+    actions.double_click(element).perform()
+    self.driver.find_element(By.ID, "formBasicEmail").send_keys("lets")
+    self.driver.find_element(By.ID, "formBasicPassword").send_keys("123456")
     self.driver.find_element(By.CSS_SELECTOR, ".btn").click()
-    self.driver.find_element(By.CSS_SELECTOR, ".fa-coins > path").click()
+    self.driver.find_element(By.CSS_SELECTOR, ".card:nth-child(1) > .btn").click()
+    assert self.driver.switch_to.alert.text == "Deseja realizar esta tradução?"
+    self.driver.switch_to.alert.accept()
+    self.driver.find_element(By.CSS_SELECTOR, ".col:nth-child(2) #originalText").click()
+    self.driver.find_element(By.CSS_SELECTOR, ".col:nth-child(2) #originalText").send_keys("texto traduzido")
+    self.driver.find_element(By.CSS_SELECTOR, ".btn:nth-child(1)").click()
+    assert self.driver.switch_to.alert.text == "Seu progresso foi salvo com sucesso!"
+    self.driver.switch_to.alert.accept()
+    self.driver.find_element(By.CSS_SELECTOR, "div:nth-child(1) > .row p:nth-child(2)").click()
+    self.driver.find_element(By.CSS_SELECTOR, ".btn:nth-child(2)").click()
+    assert self.driver.switch_to.alert.text == "Tradução enviada para revisão."
+    self.driver.switch_to.alert.accept()
+    self.driver.find_element(By.ID, "2").click()
   
