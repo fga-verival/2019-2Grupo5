@@ -1,0 +1,1137 @@
+{
+  "id": "5071e8d2-5448-411a-9762-1a4d412d21f4",
+  "version": "2.0",
+  "name": "TranslatemeTest",
+  "url": "http://localhost:3000/",
+  "tests": [{
+    "id": "fe4cec57-4f45-43ec-8a6b-80f0baefa30c",
+    "name": "Cadastro",
+    "commands": [{
+      "id": "2310ffdf-daf3-4adc-b277-269a7e51191d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecae62ee-a3dd-47fd-b259-e67b68d1969c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1853x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b18fe0cd-3864-4898-97ce-cf65c40217fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Quero Traduzir Agora!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9ef4601-eefa-4160-8fa3-38823a2dae68",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=form > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bdd4784-3668-48c2-8cca-2f6e4b3c5db2",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=form > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "leticia"
+    }, {
+      "id": "bcd10957-6f48-4f82-b79f-e3970af67bdb",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=form > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "leticia@email"
+    }, {
+      "id": "720a7685-3473-444f-83e1-6854b68e4a41",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=div > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "dcbf96eb-2872-448a-9eff-1325b42a4c69",
+      "comment": "",
+      "command": "type",
+      "target": "name=confirmPassword",
+      "targets": [
+        ["name=confirmPassword", "name"],
+        ["css=div > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "f2e936c5-518c-4ba7-b756-e4b7a62f44bb",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=form > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7097d6fe-71db-4e63-a57b-0e222865ac62",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=form > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09c4ad99-4c1c-4f96-9900-db3550f206cd",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=form > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "leticia@email.com"
+    }, {
+      "id": "cebdfb26-d21b-4e97-ac74-9e443e54c39c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e89f3fb-976e-4355-b629-39cdf1a37118",
+      "comment": "",
+      "command": "click",
+      "target": "id=formBasicEmail",
+      "targets": [
+        ["id=formBasicEmail", "id"],
+        ["name=username", "name"],
+        ["css=#formBasicEmail", "css:finder"],
+        ["xpath=//input[@id='formBasicEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59f25d96-b39c-4a53-8785-4709a5b15e29",
+      "comment": "",
+      "command": "type",
+      "target": "id=formBasicEmail",
+      "targets": [
+        ["id=formBasicEmail", "id"],
+        ["name=username", "name"],
+        ["css=#formBasicEmail", "css:finder"],
+        ["xpath=//input[@id='formBasicEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "leticia"
+    }, {
+      "id": "e1743739-9eac-4649-af57-83519dc01858",
+      "comment": "",
+      "command": "type",
+      "target": "id=formBasicPassword",
+      "targets": [
+        ["id=formBasicPassword", "id"],
+        ["name=password", "name"],
+        ["css=#formBasicPassword", "css:finder"],
+        ["xpath=//input[@id='formBasicPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "ff1805ac-3f29-466c-9d97-d36cc0793d3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar Como Autor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb77a2f1-556f-4ae2-bac8-ba1c3afc8b54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-graduation-cap",
+      "targets": [
+        ["css=.fa-graduation-cap", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d3f42eb-5623-4b35-b89f-70a14302433c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Perfil",
+      "targets": [
+        ["linkText=Perfil", "linkText"],
+        ["css=.ml-auto > .nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profile')]", "xpath:href"],
+        ["xpath=//nav/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1763af39-b0b1-4e28-9629-de4c84ca556d",
+    "name": "BasicAppTest",
+    "commands": [{
+      "id": "45be861b-8068-401b-aa29-61e1982601ab",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b982dfc1-c8b6-45cd-98b9-e8e85da48658",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1853x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4ca998b-55ed-458c-8f4c-a1900be479c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Quero Traduzir Agora!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ee60d1b-c5ea-44f6-8044-c02e7875a537",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=form > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f51daa0d-b81c-4dcc-a697-7b7d3856890f",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=form > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "leticiambs"
+    }, {
+      "id": "c2cbbeed-4691-4fc2-912a-677b44481c10",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=form > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "leticiambs@email.com"
+    }, {
+      "id": "3bd5dba5-0d4f-46e5-aba7-45d43802099c",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=div > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "senha123456"
+    }, {
+      "id": "0107ebb9-728f-4e26-8132-e5e93f67eee6",
+      "comment": "",
+      "command": "type",
+      "target": "name=confirmPassword",
+      "targets": [
+        ["name=confirmPassword", "name"],
+        ["css=div > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "senha123456"
+    }, {
+      "id": "7450553a-d4fd-4940-a76a-0e8fb7f628fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46a1b651-390c-4abb-9d31-6afedd04fe02",
+      "comment": "",
+      "command": "click",
+      "target": "id=formBasicEmail",
+      "targets": [
+        ["id=formBasicEmail", "id"],
+        ["name=username", "name"],
+        ["css=#formBasicEmail", "css:finder"],
+        ["xpath=//input[@id='formBasicEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28f2403f-5b57-434f-b6fc-6fed51c81ce4",
+      "comment": "",
+      "command": "type",
+      "target": "id=formBasicEmail",
+      "targets": [
+        ["id=formBasicEmail", "id"],
+        ["name=username", "name"],
+        ["css=#formBasicEmail", "css:finder"],
+        ["xpath=//input[@id='formBasicEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "leticiambs"
+    }, {
+      "id": "d4b24a15-648a-4253-8e86-774fb214b673",
+      "comment": "",
+      "command": "type",
+      "target": "id=formBasicPassword",
+      "targets": [
+        ["id=formBasicPassword", "id"],
+        ["name=password", "name"],
+        ["css=#formBasicPassword", "css:finder"],
+        ["xpath=//input[@id='formBasicPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "senha123456"
+    }, {
+      "id": "b7be545b-cc05-4720-84ee-bd45f4fa7177",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar Como Autor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b6e7eed-def7-43e2-b128-35a447d70f0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submeter um Novo Texto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f01cfcd6-f4e8-4500-a941-3a9b375a0483",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Clique aqui para digitar o texto",
+      "targets": [
+        ["linkText=Clique aqui para digitar o texto", "linkText"],
+        ["css=.alert-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Clique aqui para digitar o texto')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Clique aqui para digitar o texto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a5af275-58c2-4d64-a159-dc08f8ed9956",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dba0083-c194-47f9-a259-f37a7a091ca4",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e25d9adf-f767-4748-bb35-86ddbe6b4c4b",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible thoric "
+    }, {
+      "id": "81a3a5fb-bcf7-452e-a8e2-9d9190c07b03",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoric"
+    }, {
+      "id": "62094db0-0347-48eb-985c-7c2951cb652b",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical "
+    }, {
+      "id": "eeedea29-4689-403c-99fd-c1b57d88023a",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models "
+    }, {
+      "id": "ff26fccc-6b77-463d-b508-7d7bcd9021bf",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearlly"
+    }, {
+      "id": "94e889fe-884e-4515-a084-2f1203b06489",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "030b3486-b484-4803-967e-b08927807686",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly "
+    }, {
+      "id": "542929fe-fd09-493b-8eab-803d74e16a71",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. "
+    }, {
+      "id": "db625a0f-230a-42e6-8e20-80e3b831e1d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. Howhever"
+    }, {
+      "id": "df1f24c4-409a-4066-ae20-8e2f3090fb0c",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, "
+    }, {
+      "id": "4c063654-8398-41df-9b94-22ff05233036",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost "
+    }, {
+      "id": "f260f138-f998-4d50-90ef-d8e57b8a3fcc",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always "
+    }, {
+      "id": "4dd6c569-58e5-41a5-b372-4da6ea8dd9dc",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic "
+    }, {
+      "id": "975767ad-4d6d-4106-ac02-df50cd0677b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowle"
+    }, {
+      "id": "6173f90f-7b50-4065-8a30-6a2a9b972b48",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowledge "
+    }, {
+      "id": "8a98bd80-6325-492a-8314-d4530d6c5a3f",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowledge of the pneu"
+    }, {
+      "id": "3fb85664-3a29-4ffa-8a0f-daceb7402a35",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowledge of the pheu"
+    }, {
+      "id": "e2655fc4-d207-4567-a4aa-f0cbceaf2726",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57be0cbf-a02c-4dc2-9048-0465fe1beb33",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowledge of the phenom"
+    }, {
+      "id": "4f7689eb-04b0-4e10-9602-fe9d04744ffd",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowledge of the phenomenon"
+    }, {
+      "id": "0e791437-12cf-4160-b345-6150d93f8920",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowledge of the phenomenon under study case "
+    }, {
+      "id": "707d2875-4dd1-4c3a-9bc5-a8afef74b389",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowledge of the phenomenon under study case (the machi"
+    }, {
+      "id": "7e4d8661-1f21-44ab-9206-f7888e267dd4",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowledge of the phenomenon under study case (the machinism "
+    }, {
+      "id": "ccb041d2-8671-40f3-a69c-4b1a8397e0a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowledge of the phenomenon under study case (the mechanism "
+    }, {
+      "id": "227cc3b5-f029-424e-832c-92519bba10dc",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowledge of the phenomenon under study case (the mechanism of the clock"
+    }, {
+      "id": "72f53e64-0c92-4fe4-bbc6-88e58d972c0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.ControlTextarea1",
+      "targets": [
+        ["id=form.ControlTextarea1", "id"],
+        ["css=#form\\.ControlTextarea1", "css:finder"],
+        ["xpath=//textarea[@id='form.ControlTextarea1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the possible theoretical models are clearly innumerable. However, we almost always have basic knowledge of the phenomenon under study case (the mechanism of the clock, in this case)"
+    }, {
+      "id": "b100daf8-93cd-4fdd-a8da-9813e9f85195",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/form/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f5cfbb7-e7a7-4c81-95c2-e204a03a7d50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) .form-control",
+      "targets": [
+        ["css=.col:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@type='string']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "745cce2f-b15a-42d6-9159-a77b10778852",
+      "comment": "",
+      "command": "type",
+      "target": "css=.col:nth-child(1) .form-control",
+      "targets": [
+        ["css=.col:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@type='string']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "theoretical models"
+    }, {
+      "id": "88d70d34-5cca-4a02-87ca-1d8a71e537ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1pahdxg-control .css-1wa3eu0-placeholder",
+      "targets": [
+        ["css=.css-1pahdxg-control .css-1wa3eu0-placeholder", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68c3904e-1638-4d6c-beb0-1f82746cabe5",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-2-option-1",
+      "targets": [
+        ["id=react-select-2-option-1", "id"],
+        ["css=#react-select-2-option-1", "css:finder"],
+        ["xpath=//div[@id='react-select-2-option-1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div[2]/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fcd65d5-2adc-4e23-82c0-1ac952eee700",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1pahdxg-control .css-1wa3eu0-placeholder",
+      "targets": [
+        ["css=.css-1pahdxg-control .css-1wa3eu0-placeholder", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div[3]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7cd7271-3064-4d4e-b3bd-b4d85144c14a",
+      "comment": "",
+      "command": "type",
+      "target": "id=react-select-3-input",
+      "targets": [
+        ["id=react-select-3-input", "id"],
+        ["css=#react-select-3-input", "css:finder"],
+        ["xpath=//input[@id='react-select-3-input']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Filosofia"
+    }, {
+      "id": "164a295f-ace1-44b4-8ec7-03e51b89a37f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1pahdxg-control > .css-1hwfws3",
+      "targets": [
+        ["css=.css-1pahdxg-control > .css-1hwfws3", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div[4]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e87aa000-3e27-4ff4-93a6-f0ddf7df2256",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1pahdxg-control .css-1wa3eu0-placeholder",
+      "targets": [
+        ["css=.css-1pahdxg-control .css-1wa3eu0-placeholder", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div[3]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6ccee3e-b639-443f-af70-18d5c43b22e9",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.css-1pahdxg-control > .css-1hwfws3",
+      "targets": [
+        ["css=.css-1pahdxg-control > .css-1hwfws3", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cff59ec-655b-4e7f-b192-7983172e085f",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.css-1pahdxg-control .css-1wa3eu0-placeholder",
+      "targets": [
+        ["css=.css-1pahdxg-control .css-1wa3eu0-placeholder", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div[3]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87aaf8d7-ea27-4389-8732-e6d83bdb9a9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1pahdxg-control > .css-1hwfws3",
+      "targets": [
+        ["css=.css-1pahdxg-control > .css-1hwfws3", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37e37fb0-5f76-4651-9ed7-1767629b3719",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1pahdxg-control .css-1wa3eu0-placeholder",
+      "targets": [
+        ["css=.css-1pahdxg-control .css-1wa3eu0-placeholder", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/form/div[4]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b37b8500-addf-4c91-8ff7-7f41eab825ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1pahdxg-control .css-1wa3eu0-placeholder",
+      "targets": [
+        ["css=.css-1pahdxg-control .css-1wa3eu0-placeholder", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div[2]/form/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e187888-90b5-4181-883f-dbbf68c8a47d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(2) .form-control",
+      "targets": [
+        ["css=.col:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//textarea[@type='text-area']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div[2]/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58b7c257-37b1-4ead-b709-ca36b1f7b243",
+      "comment": "",
+      "command": "type",
+      "target": "css=.col:nth-child(2) .form-control",
+      "targets": [
+        ["css=.col:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//textarea[@type='text-area']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div[2]/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "The possible theorical models "
+    }, {
+      "id": "c4b22501-dc07-4543-bd16-812093a5858f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(2) .form-control",
+      "targets": [
+        ["css=.col:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//textarea[@type='text-area']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div[2]/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9591ef24-fb9e-466d-b7f4-da53521216bf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.col:nth-child(2) .form-control",
+      "targets": [
+        ["css=.col:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//textarea[@type='text-area']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div[2]/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "The possible theorical models are clearly "
+    }, {
+      "id": "13f463d0-77a3-46da-96c4-7c2e97f92e55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(2) .form-control",
+      "targets": [
+        ["css=.col:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//textarea[@type='text-area']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div[2]/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96deb9ef-8408-44db-ba8c-e469bc05f913",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "770ca19e-a9d3-4f68-a255-79d2eb9be84f",
+      "comment": "",
+      "command": "click",
+      "target": "id=my-input",
+      "targets": [
+        ["id=my-input", "id"],
+        ["css=#my-input", "css:finder"],
+        ["xpath=//textarea[@id='my-input']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3182a74a-2607-4daa-a0eb-dbb79e66425b",
+      "comment": "",
+      "command": "click",
+      "target": "id=my-input",
+      "targets": [
+        ["id=my-input", "id"],
+        ["css=#my-input", "css:finder"],
+        ["xpath=//textarea[@id='my-input']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5e5bbb5-f1a1-4e53-bd86-4f79a84a6f7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=my-input",
+      "targets": [
+        ["id=my-input", "id"],
+        ["css=#my-input", "css:finder"],
+        ["xpath=//textarea[@id='my-input']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "591fc97b-ee3f-4b19-9e0a-9ccf5685f561",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(10)",
+      "targets": [
+        ["css=.btn:nth-child(10)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Realizar pagamento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3579eeb-cdb9-4293-9bfc-4e83b8ffe2fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(10)",
+      "targets": [
+        ["css=.btn:nth-child(10)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Realizar pagamento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "984455c2-e38a-43c8-8e8d-5ae634d846c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(5)",
+      "targets": [
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remover último ponto adicionado')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab21818-2c75-43db-86c6-1a9116c9f029",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sair",
+      "targets": [
+        ["linkText=Sair", "linkText"],
+        ["css=.nav-link:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8645f9e0-8a8d-44f7-9a86-815e4fbc7ac7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Sair",
+      "targets": [
+        ["linkText=Sair", "linkText"],
+        ["css=.nav-link:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ff195b69-0092-404d-bc0b-08d9f9abde91",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fe4cec57-4f45-43ec-8a6b-80f0baefa30c"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
